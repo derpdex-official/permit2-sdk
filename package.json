@@ -1,6 +1,6 @@
 {
   "name": "@derpdex/permit2-sdk",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "An sdk for interacting with permit2.",
   "publishConfig": {
     "access": "public"
@@ -22,7 +22,7 @@
     "url": "https://github.com/derpdex-official/permit2-sdk.git"
   },
   "keywords": [
-    "uniswap",
+    "zksync",
     "ethereum"
   ],
   "license": "MIT",

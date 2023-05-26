@@ -1,7 +1,25 @@
 import { BigNumber } from '@ethersproject/bignumber'
 
 export const PERMIT2_ADDRESS = '0x000000000022D473030F116dDEE9F6B43aC78BA3'
-export const PERMIT2_ADDRESS_BY_CHAINS = {
+
+type Permit2AddressByChainsType = {
+    1: string;
+    3: string;
+    4: string;
+    5: string;
+    42: string;
+    56: string;
+    97: string;
+    128: string;
+    137: string;
+    250: string;
+    256: string;
+    4002: string;
+    80001: string;
+    280: string;
+}
+
+export const PERMIT2_ADDRESS_BY_CHAINS: Permit2AddressByChainsType = {
     [1]: '0x000000000022D473030F116dDEE9F6B43aC78BA3',
     [3]: '0x000000000022D473030F116dDEE9F6B43aC78BA3',
     [4]: '0x000000000022D473030F116dDEE9F6B43aC78BA3',
